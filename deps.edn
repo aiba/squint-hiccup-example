@@ -1,0 +1,6 @@
+{:paths ["src"]
+ :deps  {cider/cider-nrepl   {:mvn/version "0.31.0"}
+         nrepl/nrepl         {:mvn/version "1.0.0"}
+         org.clojure/clojure {:mvn/version "1.11.1"}
+         hiccup/hiccup       {:mvn/version "2.0.0-RC1"}
+         ring/ring           {:mvn/version "1.10.0"}}}
