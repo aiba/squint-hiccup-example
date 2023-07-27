@@ -1,6 +1,8 @@
 {:paths ["src"]
- :deps  {cider/cider-nrepl   {:mvn/version "0.31.0"}
+ :deps  {cheshire/cheshire   {:mvn/version "5.11.0"}
+         cider/cider-nrepl   {:mvn/version "0.31.0"}
+         hiccup/hiccup       {:mvn/version "2.0.0-RC1"}
          nrepl/nrepl         {:mvn/version "1.0.0"}
          org.clojure/clojure {:mvn/version "1.11.1"}
-         hiccup/hiccup       {:mvn/version "2.0.0-RC1"}
-         ring/ring           {:mvn/version "1.10.0"}}}
+         ring/ring           {:mvn/version "1.10.0"}
+         squint/squint       {:git/url "https://github.com/squint-cljs/squint" :git/sha "68c2c9bac04cf78fb95edb4be4578d3c7c15de7d"}}}
