@@ -1,4 +1,6 @@
 
+# squint-hiccup-example
+
 This shows how to sprinkle some lightweight javascript into a server-side
 JVM/clojure ring application, using
 [squint-cljs](https://github.com/squint-cljs/squint).
